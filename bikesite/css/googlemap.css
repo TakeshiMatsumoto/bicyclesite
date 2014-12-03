@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  margin:  0;
+  padding: 0;
+  font-size: 110%;
+  text-align: center;
+}
+
+table{
+font-size:120%;
+}
+
+#map-canvas, #map_canvas {
+  height: 100%;
+   margin-left:25%;
+}
+
+#commenttable{
+      margin-left:36%;
+}
+
+#participanttable{
+      margin-left:52%;
+}
+
+ td {
+
+	table-layout: fixed;
+
+}
+
+
+#area2{
+  width:50%;
+  height:50%;
+  margin-left:25%;
+}
+
+#map-canvas img {
+    max-width: none;
+}
+
+@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map-canvas, #map_canvas {
+    height: 650px;
+  }
+}
+
+#panel {
+  position: absolute;
+  top: 5px;
+  left: 70%;
+  margin-left: 30px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+.table-nonfluid {
+   width: auto;
+}
+
+.watermark{
+	
+color : #CCCCCC;
+
+}
